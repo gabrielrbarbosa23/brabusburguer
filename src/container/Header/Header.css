@@ -1,0 +1,32 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.app__header-h1-container .app__header-h1 {
+    font-family: font-alt;
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-size: 70px;
+}
+
+.app__wrapper_img img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+@media (max-width: 420px) {
+    .app__header-h1-container
+    .app__header-h1 {
+        font-size: 50px;
+    }
+}

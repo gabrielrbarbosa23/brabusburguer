@@ -1,0 +1,19 @@
+.ProductSlider {
+    background-color: var(--color-black);
+}
+
+.title {
+    color: var(--color-golden);
+    text-align: center;
+    font-family: font-alt;
+}
+
+.mySwiper {
+    color: var(--color-white);
+}
+
+.Button {
+    background-color: var(--color-golden);
+    border-radius: 10px;
+    width: 100%;
+}
